@@ -1,0 +1,365 @@
+html,
+body {
+
+    margin: 0;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+.header {
+    margin-top: 30px;
+    background-color: white;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+
+    .logo {
+        width: 20%;
+
+        a {
+            font-size: 28px;
+            text-align: center;
+            color: black;
+            font-family: 'Poppins';
+            font-weight: bolder;
+            text-decoration: none;
+            /* margin-left: 77px; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 70px;
+            text-transform: uppercase;
+        }
+
+        a:hover {
+            color: yellowgreen;
+        }
+
+
+
+
+    }
+
+    .nav-menu {
+
+        width: 76%;
+        display: flex;
+        justify-content: flex-end;
+
+
+        nav {
+
+            a {
+                padding-right: 25px;
+                font-size: 28px;
+                text-align: center;
+                color: black;
+                font-family: 'Poppins';
+                font-weight: bolder;
+                text-decoration: none;
+                /* margin-left: 77px; */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 70px;
+                text-transform: uppercase;
+                flex-direction: row;
+                float: left;
+
+            }
+
+            a:hover {
+                color: yellowgreen;
+            }
+        }
+
+        .search-shopping {
+            margin-top: 15px;
+
+            a {
+                font-size: 30px;
+                color: black;
+                padding: 25px;
+
+            }
+
+            a:hover {
+                color: yellowgreen;
+            }
+        }
+
+
+    }
+
+}
+
+main {
+
+    .content {
+
+        display: flex;
+
+        margin-left: 4.8%;
+        margin-right: 5%;
+
+
+
+
+        .contentText {
+            color: white;
+            width: 40%;
+
+            h1 {
+                font-size: 64px;
+                font-weight: 900;
+            }
+
+            p {
+                font-size: 22px;
+            }
+
+            .button {
+                border-radius: 50px;
+                color: black;
+                background-color: rgb(122, 97, 97);
+                box-sizing: 20px;
+                width: 241px;
+                height: 42px;
+                text-indent: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                a {
+                    font-size: 20px;
+                    text-decoration: none;
+                    color: white;
+                    font-weight: 600;
+                }
+
+                a:hover {
+
+                    color: yellowgreen;
+
+                }
+            }
+
+
+        }
+
+        .contentIMG {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            border-radius: 50%;
+            background-color: white;
+            margin-left: 504px;
+            margin-top: 67px;
+
+
+            img {
+                width: 351px;
+                height: 199px;
+                float: right;
+            }
+        }
+    }
+
+
+    .brand {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 151px;
+        padding: 10px;
+        grid-gap: 70px;
+        background-color: darkslategray;
+
+        img {
+
+            width: 148px;
+            float: left;
+
+        }
+    }
+
+    .Pcollection {
+
+        text-align: center;
+        color: white;
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    .containet {
+
+        margin-left: 5%;
+        margin-right: 5%;
+
+
+
+
+        .row {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+            margin-top: 22px;
+
+
+            .column {
+                float: left;
+                width: 25%;
+                padding: 0 10px;
+
+                .card {
+
+                    background-color: white;
+
+
+                    .productImg {
+                        padding: 20px 20px;
+                        width: -webkit-fill-available;
+                    }
+
+                    h1 {
+                        padding: 0px 20px;
+                    }
+
+                    p {
+                        padding: 0px 20px;
+                    }
+
+                    .rating {
+
+                        padding: 0px 20px;
+
+                        p {
+                            display: inline;
+                            padding-left: 15px;
+                        }
+                    }
+                }
+
+            }
+
+        }
+
+
+
+
+
+
+    }
+
+    .SeeMore {
+        border-radius: 15%;
+
+        .po {
+            width: 10%;
+            font-size: 20px;
+
+            color: white;
+            border-radius: 20px;
+            padding: 5px 25px;
+            float: right;
+            margin-right: 200px;
+            text-decoration: none;
+            margin-top: 11px;
+        }
+
+        .po:hover {
+            color: yellowgreen;
+        }
+    }
+
+
+    .cusContainer {
+
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 55px;
+
+
+
+        .row {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .FPimgdiv {
+
+                width: 40%;
+                text-align: center;
+                margin-left: -31px;
+
+                .fpimg {
+                    width: 410px;
+                    margin-left: 0px;
+                }
+            }
+
+
+
+            .fptxt {
+
+                color: white;
+                margin-left: -100px;
+
+                a {
+
+                    text-decoration: none;
+                    color: white;
+                    background-color: green;
+                    padding: 5px 25px;
+                }
+
+                a:hover {
+
+                    color: yellowgreen;
+                }
+            }
+        }
+    }
+
+
+}
+
+
+footer {
+    background-color: white;
+    overflow: hidden;
+    margin-top: 30px;
+
+    .FooterText {
+        text-align: center;
+
+        h3 {
+            margin-top: -17px;
+        }
+
+        .socialMeia {
+
+            margin-right: 20px;
+
+
+            .fab{
+
+                padding-right: 10px;
+                color: black;
+                font-size: 30px;
+                text-align: center;
+                
+            }
+            .fab:hover{
+                color: rgb(77, 77, 224);
+            }
+        }
+
+    }
+
+
+}
